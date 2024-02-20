@@ -1,0 +1,4 @@
+<%=link_to attraction_path(attraction.id), class: 'attraction' do %>
+        <h2><%=attraction.title%></h2>
+        <a href="<%= attraction.location %>" class="btn btn-primary" target="_blank" >Ver ubicacion</a>
+<%end%>

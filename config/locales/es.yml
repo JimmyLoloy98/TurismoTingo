@@ -1,0 +1,30 @@
+es:
+  attractions:
+    index:
+      title: 'Atracciones turisticas'
+    edit:
+      title: 'Editar atracción Turistica'
+    new:
+      title: 'Añadir atracción Turistica'
+    show:
+      edit: 'Editar atracción Turistica'
+      delete: 'Borrar atracción Turistica'
+    create:
+      created: 'Tu atracción Turistica se ha creado correctamente'
+      alert: 'Tu atracción Turistica no se puedo crear'
+    update:
+      updated: 'Tu atracción Turistica se ha actualizado correctamente'
+    destroy:
+      destroyed: 'Tu atracción Turistica se ha eliminado correctamente'
+  
+  activerecord:
+    errors:
+      models:
+        attraction:
+          attributes:
+            title:
+              blank: 'El titulo no puede ser vacio'
+            description:
+              blank: 'La descripción no puede ser vacio'
+            location:
+              blank: 'La url de ubicacion no puede ser vacio'

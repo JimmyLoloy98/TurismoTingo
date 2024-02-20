@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+Plaza:
+  title: Plaza de armas
+  description: ubicado en el centro de la ciudad
+  location: Ver ubicacion
+
+onolulo:
+  title: Catarata de onolulo
+  description: cascadas imprsionantes
+  location: https://acortar.link/w6G3eL

@@ -1,0 +1,35 @@
+
+<%= form_with model: @attraction do |form| %>
+  <div class="field">
+    <%= form.label :title do %>
+      <strong>Title:</strong>
+    <% end %>
+    <%= form.text_field :title %>
+    <% if @attraction.errors[:title].any? %>
+      <div class="error-message"><%= @attraction.errors[:title].first %></div>
+    <% end %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description do %>
+      <strong>Description:</strong>
+    <% end %>
+    <%= form.text_area :description %>
+    <% if @attraction.errors[:description].any? %>
+      <div class="error-message"><%= @attraction.errors[:description].first %></div>
+    <% end %>
+  </div>
+
+  <div class="field">
+    <%= form.label :location do %>
+      <strong>Location:</strong>
+    <% end %>
+    <%= form.text_area :location %>
+    <% if @attraction.errors[:location].any? %>
+      <div class="error-message"><%= @attraction.errors[:location].first %></div>
+    <% end %>
+  </div>
+
+  <%= form.submit %>
+<% end %>
+

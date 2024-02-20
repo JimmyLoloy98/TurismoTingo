@@ -1,0 +1,6 @@
+<%= link_to attractions_path do %>
+  <h1>Turismo Tingo</h1>
+<% end %>
+<h1 class='title'><%= @attraction.title %></h1>
+<p class='description'><%= @attraction.description %></p>
+<a class='location btn btn-primary' href="<%= @attraction.location %>" target="_blank">Ver ubicación</a>
